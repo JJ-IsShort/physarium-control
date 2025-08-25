@@ -284,7 +284,7 @@ const port = 9224;
 
 function initWebSocket() {
   ws = new RobustWebSocket(
-    /* `ws://192.168.8.121:${port}`); // */ `ws://benitop.dyn.wpi.edu:${port}`,
+    /* `ws://192.168.8.121:${port}`); // */ `ws://physarium.dyn.wpi.edu:${port}`,
   );
 
   ws.addEventListener("open", function (event) {
